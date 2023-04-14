@@ -5,10 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
   <link rel="icon" type="image/x-icon" href="images/1674628917_gas-kvas-com-p-kotenok-konturnii-risunok-5.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Mulish:wght@700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">  
+  <link href="https://unpkg.com/@csstools/normalize.css" rel="stylesheet" />
   <title>thousand sunny</title>
 </head>
 <body>
@@ -22,7 +24,7 @@
                 <circle cx="20.5" cy="20.5" r="9" fill="#FB8F1D" stroke="white" stroke-width="3"/>
                 </svg>                            
             </div>
-            <nav class="top_nav">
+            <nav class="right_nav">
               <ul class="ul_nav">
                 <li><a href="#" class="top_nav-link selected">Home</a></li>
                 <li><a href="#" class="top_nav-link">Destinations</a></li>
@@ -34,16 +36,46 @@
             </nav>
         </div>
       </header>
-      <section class="hero">
-        <div class="container">
-          <div class="hero-content">
-            <div class="hero-form">
-              <h1 class="hero-title">Explore and Travel</h1>
+      <main>     
+        <section class="hero">
+          <div class="container">
+            <div class="hero-content">
+              <div class="hero-form">
+                <h1 class="hero-title">Explore and Travel</h1>
+                <h4 class="hero-subtitle">Holiday finder</h4>
+                <form class="form-groups">
+                  <div class="custom-select">
+                    <select class="form-select">
+                      <option value="Location">Location</option>
+                    </select>
+                  </div>
+                  <div class="custom-select">
+                    <select class="form-select">
+                      <option value="Activity">Activity</option>
+                    </select>
+                  </div>
+                  <div class="custom-select">
+                    <select class="form-select">
+                      <option value="Grade">Grade</option>
+                    </select>
+                  </div>
+                  <div class="custom-select">
+                    <select class="form-select">
+                      <option value="Date">Date</option>
+                    </select> 
+                  </div>
+                  <a class="btn" href="#">Explore</a>
+                </form>
+              </div>
             </div>
+            <div class="hero-img">
+              <img src="images/thousand-01 1.svg" alt="">
+            </div>
+                      
           </div>
-        </div>
-        
-      </section>
+        </section>
+      </main>
+      
         <!--
           <div class="holiday_finder">
           <form method="GET">
