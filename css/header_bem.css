@@ -9,6 +9,24 @@ header {
 a {
   text-decoration: none;
 }
+h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+p {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  color: #7D7987;
+  mix-blend-mode: normal;
+}
 .wrapper {
   position: relative;
   margin: 0 auto;
@@ -38,7 +56,7 @@ a {
   margin-top: 8px;
 }
 
-a.list__item {
+button.list__item {
   text-decoration: none;
   color: #B8BECD;
   font-size: 16px;
@@ -58,15 +76,16 @@ a.list__item {
   height: 44px;
   background: #FB8F1D;
   color: #FFFFFF;
+  border: none;
 }
-.navigation__login.btn {
+.list__login.btn {
   font-family: 'Inter', sans-serif;
   outline: 1px solid #FB8F1D;
   color: #FB8F1D;
   background-color: #FFFFFF;
   font-weight: 500;
 }
-.navigation__register.btn {
+.list__register.btn {
   font-family: 'Inter', sans-serif;
 }
 

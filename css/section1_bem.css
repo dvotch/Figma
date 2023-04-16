@@ -3,15 +3,16 @@ select {
   -moz-appearance: none;
   appearance: none;
 }
-.hero {
-  
-}
 .container {
+  margin-left: 109px; 
+}
+.hero_1 {
+  margin-top: 114px;
+}
+.container_1 {
   display: flex;
   justify-content: space-between;
   position: relative;
-  margin-left: 109px; 
-  margin-top: 114px;
 }
 .hero__form {
   position: relative;

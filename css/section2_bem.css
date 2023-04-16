@@ -1,0 +1,18 @@
+.hero_2 {
+  margin-top: 270px;
+}
+.container_2 {
+  display: flex;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 112px;
+  margin-left: 102px;
+}
+.some-text {
+  width: 450px;
+}
+.hero_2 .btn {
+  margin-top: 39px;
+}
