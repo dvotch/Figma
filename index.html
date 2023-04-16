@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/sector1_bem.css">
+  <link rel="stylesheet" href="css/header_bem.css">
   <link rel="icon" type="image/x-icon" href="images/1674628917_gas-kvas-com-p-kotenok-konturnii-risunok-5.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,21 +17,21 @@
   
     <div class="wrapper">
       <header>
-        <div class="nav_bar">
-            <div class="logo">
+        <div class="navigation">
+            <div class="navigation__logo">
               <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="20.5" cy="20.5" r="20.5" fill="#1ABE84"/>
                 <circle cx="20.5" cy="20.5" r="9" fill="#FB8F1D" stroke="white" stroke-width="3"/>
                 </svg>                            
             </div>
-            <nav class="right_nav">
-              <ul class="ul_nav">
-                <li><a href="#" class="top_nav-link selected">Home</a></li>
-                <li><a href="#" class="top_nav-link">Destinations</a></li>
-                <li><a href="#" class="top_nav-link">About</a></li>
-                <li><a href="#" class="top_nav-link">Partner</a></li>
-                <li><a class="login_btn btn" href="#">Login</a></li>
-                <li><a class="register_btn btn" href="#">Register</a></li>
+            <nav class="navigation__right">
+              <ul class="navigation__list">
+                <li><a href="#" class="list__item selected">Home</a></li>
+                <li><a href="#" class="list__item">Destinations</a></li>
+                <li><a href="#" class="list__item">About</a></li>
+                <li><a href="#" class="list__item">Partner</a></li>
+                <li><a class="list__login btn" href="#">Login</a></li>
+                <li><a class="list__register btn" href="#">Register</a></li>
               </ul>
             </nav>
         </div>
@@ -39,44 +39,40 @@
       <main>     
         <section class="hero">
           <div class="container">
-            <div class="hero-content">
-              <div class="hero-form">
-                <h1 class="hero-title">Explore and Travel</h1>
-                <h4 class="hero-subtitle">Holiday finder</h4>
-                <form class="form-groups">
-                  <div class="custom-select">
-                    <select class="form-select">
-                      <option value="Location">Location</option>
-                    </select>
+            <div class="hero__form">
+              <h1 class="hero__title">Explore and Travel</h1>
+              <h4 class="hero__subtitle">Holiday finder</h4>
+              <form class="hero__form-groups">
+                <div class="hero__custom-select">
+                  <select class="custom-select__item">
+                    <option value="Location">Location</option>
+                  </select>
                   </div>
-                  <div class="custom-select">
-                    <select class="form-select">
+                  <div class="hero__custom-select">
+                    <select class="custom-select__item">
                       <option value="Activity">Activity</option>
                     </select>
                   </div>
-                  <div class="custom-select">
-                    <select class="form-select">
+                  <div class="hero__custom-select">
+                    <select class="custom-select__item">
                       <option value="Grade">Grade</option>
                     </select>
                   </div>
-                  <div class="custom-select">
-                    <select class="form-select">
+                  <div class="hero__custom-select">
+                    <select class="custom-select__item">
                       <option value="Date">Date</option>
                     </select> 
-                  </div>
-                  <a class="btn explore" href="#">Explore</a>
-                </form>
-              </div>
+                </div>
+                <a class="hero__explore btn" href="#">Explore</a>
+              </form>
             </div>
-            <div class="hero-img">
+            <div class="hero__img">
               <img src="images/thousand-01 1.svg" alt="">
-            </div>
-                      
+            </div>     
           </div>
         </section>
       </main>
       </header>
     </div>
-    
 </body>
 </html>
