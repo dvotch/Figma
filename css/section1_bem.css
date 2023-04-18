@@ -1,18 +1,32 @@
+
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
-.container {
-  margin-left: 109px; 
-}
+
 .hero_1 {
-  margin-top: 114px;
+  margin-top: 78px;
 }
-.container_1 {
+[ class^="container_"] {
   display: flex;
   justify-content: space-between;
   position: relative;
+}
+.container_1 {
+  width: 1415px;
+  border: 1px solid black;
+}
+.hero-content__some-text {
+  font-family: 'Mulish', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 30px;
+  display: block;
+  opacity: 100%;
+  color: #7D7987;
+  margin-top: 20px;
+  width: 450px;
 }
 .hero__form {
   position: relative;
@@ -34,7 +48,7 @@ select {
   font-weight: 700;
   line-height: 80px;
   text-align: left;
-  margin: 0;
+  margin-top: 32px;
 }
 .hero__subtitle {
   position: relative;
@@ -85,7 +99,10 @@ select {
   transform: rotate(45deg);
 }
 .hero__explore.btn {
+  width: 180px;
+  height: 52px;
   margin-top: 16px;
+  font-size: 17px;
 }
 .custom-select__item {
   position: relative;
@@ -101,4 +118,7 @@ select {
   line-height: 32px;
   padding-left: 31px;
   background: none;
+}
+.hero__img {
+  margin-right: 110px;
 }

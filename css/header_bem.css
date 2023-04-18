@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Mulish:wght@300;400;700&family=Playfair+Display:wght@700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 400;
+
 }
 header {
   width: 100%;
@@ -16,53 +22,49 @@ h2 {
   line-height: 50px;
   letter-spacing: 0em;
   text-align: left;
-  
+  width: 481px;
 }
-p {
-  font-family: 'Muli';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 17px;
-  line-height: 30px;
-  color: #7D7987;
-  mix-blend-mode: normal;
+.container {
+  width: 1415px;
+  margin-left: 170px;
 }
 .wrapper {
   position: relative;
   margin: 0 auto;
   z-index: 1;
-  max-width: 1415px;
+  max-width: 1600px;
 }
 .navigation {
   display: flex;
   position: relative;
-  justify-content: flex-end;
+  justify-content: space-between;
+  margin-right: 185px;
 }
 .navigation__logo {
-  position: absolute;
-  display: block;
-  left: 111px;
-  top: 45px;
+  margin-top: 45px;
 }
 .navigation__right {
-  width: 663px;
-  margin-top: 35px;
-}
-.navigation__list {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  list-style: none;
-  margin-top: 8px;
+  width: 663px;
+  margin-top: 40px;
+}
+.navigation__item {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #B8BECD;
 }
 
-button.list__item {
-  text-decoration: none;
-  color: #B8BECD;
-  font-size: 16px;
+.navigation__right button {
+  font-size: 15px;
   font-weight: 500;
+  font-family: 'Inter', sans-serif;
 }
-.list__item.selected {
+.navigation__item.selected {
   color: #202336;
 }
 .btn {
@@ -71,6 +73,7 @@ button.list__item {
   display: flex;
   align-items: center;
   justify-content: center;
+  line-height: 60px;
   border-radius: 8px;
   width: 132px;
   height: 44px;
@@ -79,14 +82,10 @@ button.list__item {
   border: none;
 }
 .list__login.btn {
-  font-family: 'Inter', sans-serif;
   outline: 1px solid #FB8F1D;
   color: #FB8F1D;
   background-color: #FFFFFF;
-  font-weight: 500;
-}
-.list__register.btn {
-  font-family: 'Inter', sans-serif;
+  margin-right: -13px;
 }
 
 
