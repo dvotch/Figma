@@ -6,7 +6,7 @@ select {
 }
 
 .hero_1 {
-  margin-top: 78px;
+  margin-top: 81px;
 }
 [ class^="container_"] {
   display: flex;
@@ -15,7 +15,6 @@ select {
 }
 .container_1 {
   width: 1415px;
-  border: 1px solid black;
 }
 .hero-content__some-text {
   font-family: 'Mulish', sans-serif;

@@ -6,7 +6,6 @@
 .container_2 {
   display: flex;
   width: 1242px;
-  border: 1px solid black;
 }
 .hero-content {
   display: flex;

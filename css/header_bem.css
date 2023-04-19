@@ -15,13 +15,14 @@ header {
 a {
   text-decoration: none;
 }
-h2 {
+.hero__title_h2 {
   font-family: "Playfair Display", sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 50px;
   letter-spacing: 0em;
   text-align: left;
+  vertical-align: top;
   width: 481px;
 }
 .container {
