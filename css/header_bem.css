@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Mulish:wght@300;400;700&family=Playfair+Display:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Mulish:wght@300;400;700&family=Playfair+Display:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
-
 }
 header {
   width: 100%;
@@ -52,24 +51,24 @@ a {
   margin-top: 40px;
 }
 .navigation__item {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color: #B8BECD;
+  color: #b8becd;
 }
 
 .navigation__right button {
   font-size: 15px;
   font-weight: 500;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .navigation__item.selected {
   color: #202336;
 }
 .btn {
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -78,15 +77,13 @@ a {
   border-radius: 8px;
   width: 132px;
   height: 44px;
-  background: #FB8F1D;
-  color: #FFFFFF;
+  background: #fb8f1d;
+  color: #ffffff;
   border: none;
 }
 .list__login.btn {
-  outline: 1px solid #FB8F1D;
-  color: #FB8F1D;
-  background-color: #FFFFFF;
+  outline: 1px solid #fb8f1d;
+  color: #fb8f1d;
+  background-color: #ffffff;
   margin-right: -13px;
 }
-
-

@@ -1,0 +1,71 @@
+.trending-stories__container {
+  width: 1125px;
+  margin-left: 47px;
+  margin-top: 276px;
+}
+.trending-stories__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44.5px;
+  gap: 0 3px;
+}
+.content__column {
+  display: flex;
+  flex-direction: column;
+  width: 284px;
+}
+.content__img {
+  width: 260px;
+  height: 234px;
+  border-radius: 8px 8px 0 0;
+}
+.img__benefits {
+  background-image: url(/images/benefits.svg);
+}
+.img__restaurant {
+  background-image: url(/images/restaurant.svg);
+}
+.img__yucatan {
+  background-image: url(/images/Yucatan.svg);
+}
+.img__surf {
+  background-image: url(/images/surf.svg);
+}
+.content__row {
+  margin-right: 21px;
+}
+.content__title {
+  font-family: "Inter", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  margin-top: 12px;
+  width: 252px;
+}
+.content__title_benefits {
+  width: 219px;
+}
+.content__title_restaurant {
+  width: 242;
+}
+.content__text {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  color: #7d7987;
+  width: 266px;
+  margin-top: 13px;
+}
+.content__read-more {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  width: 266px;
+  color: #fb8f1d;
+  margin-top: 23px;
+}

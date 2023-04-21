@@ -1,5 +1,5 @@
 .hero_3 {
-  margin-top: 282px;
+  margin-top: 284px;
   margin-left: 50px;
 }
 .container_3 {
@@ -30,7 +30,7 @@
   bottom: 0;
 }
 .hero__place {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 17px;
   display: flex;
@@ -43,23 +43,24 @@
   font-weight: 500;
   font-size: 15px;
   margin-top: 6px;
-  color: #80918E;
+  color: #80918e;
 }
-.hero3__view-all {
+.hero__view-all {
   position: relative;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 17px;
   line-height: 60px;
   display: flex;
   align-items: center;
-  color: #FB8F1D;
+  color: #fb8f1d;
   margin-top: 5px;
   margin-right: 18px;
 }
-.hero3__view-all:after, .hero3__view-all::before {
+.hero__view-all:after,
+.hero__view-all::before {
   border-right: 2px solid;
-  content: '';
+  content: "";
   display: block;
   height: 8px;
   margin-top: -6px;
@@ -69,11 +70,11 @@
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
   right: -15px;
-  top: 50%; 
+  top: 50%;
   width: 0;
 }
 
-.hero3__view-all::before {
+.hero__view-all::before {
   margin-top: -1px;
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
