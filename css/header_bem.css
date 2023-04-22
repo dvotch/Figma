@@ -45,10 +45,11 @@ a {
 }
 .navigation__right {
   display: flex;
-  justify-content: space-around;
+  gap: 0 34px;
   align-items: center;
   width: 663px;
   margin-top: 40px;
+  margin-right: 11px;
 }
 .navigation__item {
   font-family: "Inter";
@@ -58,7 +59,18 @@ a {
   line-height: 19px;
   color: #b8becd;
 }
-
+.navigation__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 347px;
+}
+.navigation__buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 282px;
+}
 .navigation__right button {
   font-size: 15px;
   font-weight: 500;

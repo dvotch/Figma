@@ -6,7 +6,7 @@
 .trending-stories__content {
   display: flex;
   justify-content: space-between;
-  margin-top: 44.5px;
+  margin-top: 46px;
   gap: 0 3px;
 }
 .content__column {
@@ -32,7 +32,7 @@
   background-image: url(/images/surf.svg);
 }
 .content__row {
-  margin-right: 21px;
+  margin-right: 25px;
 }
 .content__title {
   font-family: "Inter", sans-serif;
@@ -68,4 +68,7 @@
   width: 266px;
   color: #fb8f1d;
   margin-top: 23px;
+}
+.text_small {
+  width: 250px;
 }
