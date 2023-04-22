@@ -1,12 +1,14 @@
 .trending-stories__container {
+  position: relative;
   width: 1125px;
   margin-left: 47px;
   margin-top: 276px;
 }
 .trending-stories__content {
+  position: relative;
   display: flex;
   justify-content: space-between;
-  margin-top: 46px;
+  margin-top: 48px;
   gap: 0 3px;
 }
 .content__column {
@@ -16,7 +18,7 @@
 }
 .content__img {
   width: 260px;
-  height: 234px;
+  height: 230px;
   border-radius: 8px 8px 0 0;
 }
 .img__benefits {
@@ -41,6 +43,7 @@
   line-height: 30px;
   letter-spacing: 0em;
   margin-top: 12px;
+  margin-left: 1px;
   width: 252px;
 }
 .content__title_benefits {

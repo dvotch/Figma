@@ -2,6 +2,7 @@
   margin-top: 231.5px;
 }
 .container_4 {
+  position: relative;
   margin-left: 48px;
   width: 1130px;
 }
@@ -11,4 +12,7 @@
 }
 .hero__title_h2.hero-4__title {
   width: 400px;
+}
+.hero-4__img {
+  position: relative;
 }

@@ -1,8 +1,10 @@
 .hero_3 {
+  position: relative;
   margin-top: 284px;
   margin-left: 50px;
 }
 .container_3 {
+  position: relative;
   flex-direction: column;
   width: 1120px;
 }
@@ -42,7 +44,8 @@
   display: flex;
   font-weight: 500;
   font-size: 15px;
-  margin-top: 6px;
+  margin-top: 7px;
+  margin-left: -1px;
   color: #80918e;
 }
 .hero__view-all {

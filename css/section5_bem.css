@@ -1,9 +1,9 @@
 .hero_5 {
   margin-top: 250px;
-  margin-left: 47px;
+  margin-left: 48px;
 }
 .hero-content__quote {
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
@@ -13,13 +13,14 @@
 }
 .hero5__img {
   margin-top: 108px;
-  margin-left: 156px;
+  margin-left: 155px;
   position: relative;
 }
 .container_5 {
+  position: relative;
   justify-content: start;
 }
-.hero5__img img{
+.hero5__img img {
   width: 384px;
   border-radius: 14px;
 }
@@ -59,21 +60,22 @@
   bottom: 3.5px;
   right: 0;
 }
-.container__circle{
+.container__circle {
   position: relative;
   margin-left: 22px;
   width: 36px;
   height: 36px;
   z-index: 2;
-  border: 2px solid #D7D7D7;
+  border: 2px solid #d7d7d7;
   border-radius: 50%;
 }
 .circle__next {
   border-color: #000000;
 }
-.circle__previous::after, .circle__previous::before {
+.circle__previous::after,
+.circle__previous::before {
   position: absolute;
-  border-right: 2px solid #D7D7D7;
+  border-right: 2px solid #d7d7d7;
   content: "";
   height: 8px;
   width: 0px;
@@ -89,7 +91,8 @@
   margin-top: -4.5px;
   transform: rotate(45deg);
 }
-.circle__next::after, .circle__next::before {
+.circle__next::after,
+.circle__next::before {
   position: absolute;
   border-right: 2px solid #000;
   content: "";

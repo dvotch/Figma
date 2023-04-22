@@ -14,6 +14,7 @@ select {
 }
 .container_1 {
   width: 1415px;
+  position: relative;
 }
 .hero-content__some-text {
   font-family: "Mulish", sans-serif;
@@ -114,9 +115,10 @@ select {
   font-weight: 400;
   letter-spacing: 0em;
   line-height: 32px;
-  padding-left: 31px;
+  padding-left: 29px;
   background: none;
 }
 .hero__img {
+  position: relative;
   margin-right: 110px;
 }
