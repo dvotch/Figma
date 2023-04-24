@@ -1,0 +1,112 @@
+.hero_5 {
+  margin-top: 250px;
+  margin-left: 48px;
+}
+.hero-content__quote {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  mix-blend-mode: normal;
+  width: 450px;
+}
+.hero5__img {
+  margin-top: 108px;
+  margin-left: 155px;
+  position: relative;
+}
+.container_5 {
+  position: relative;
+  justify-content: start;
+}
+.hero5__img img {
+  width: 384px;
+  border-radius: 14px;
+}
+.hero-content__star-raiting {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 145px;
+  width: 190px;
+}
+.hero-content__quote {
+  margin-top: 30.05px;
+}
+.hero-content__author {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
+  color: #000000;
+  margin-top: 38px;
+}
+.hero-content__founder-circle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 0.85);
+  margin-top: -12px;
+}
+.hero__container {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  width: 132px;
+  height: 60px;
+  z-index: 1;
+  background-color: #fff;
+  border-radius: 16px 0 0 0;
+  bottom: 3.5px;
+  right: 0;
+}
+.container__circle {
+  position: relative;
+  margin-left: 22px;
+  width: 36px;
+  height: 36px;
+  z-index: 2;
+  border: 2px solid #d7d7d7;
+  border-radius: 50%;
+}
+.circle__next {
+  border-color: #000000;
+}
+.circle__previous::after,
+.circle__previous::before {
+  position: absolute;
+  border-right: 2px solid #d7d7d7;
+  content: "";
+  height: 8px;
+  width: 0px;
+  display: block;
+  right: 50%;
+  top: 45%;
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+.circle__previous::before {
+  margin-top: -4.5px;
+  transform: rotate(45deg);
+}
+.circle__next::after,
+.circle__next::before {
+  position: absolute;
+  border-right: 2px solid #000;
+  content: "";
+  height: 8px;
+  width: 0px;
+  display: block;
+  right: 45%;
+  top: 45%;
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.circle__next::before {
+  margin-top: -4.5px;
+  transform: rotate(135deg);
+}

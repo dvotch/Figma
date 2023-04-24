@@ -1,0 +1,177 @@
+.hero_1 .container_1::before {
+  position: absolute;
+  left: 33%;
+  bottom: 89%;
+  background-image: url(../images/cross.webp);
+  width: 20px;
+  height: 20px;
+  content: "";
+}
+.hero_1 .container_1::after {
+  position: absolute;
+  left: -8%;
+  bottom: 46.5%;
+  background-image: url(../images/circle.webp);
+  width: 26px;
+  height: 26px;
+  content: "";
+}
+.hero_1 .hero__img::before {
+  position: absolute;
+  left: -11.5%;
+  bottom: 3.5%;
+  background-image: url(../images/circle.webp);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  content: "";
+}
+.hero_2 .hero2__img::after {
+  position: absolute;
+  bottom: 98.5%;
+  right: 43.1%;
+  background-image: url(../images/cross.webp);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  content: "";
+  transform: rotate(7deg);
+}
+.hero_2 .hero-content::after {
+  position: absolute;
+  bottom: 28.5%;
+  right: 28%;
+  background-image: url(../images/circle.webp);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  content: "";
+}
+.hero_3 .container_3::after {
+  position: absolute;
+  bottom: 101%;
+  right: 15.3%;
+  background-image: url(../images/circle.webp);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  content: "";
+}
+.hero_3 .container_3::before {
+  position: absolute;
+  bottom: 27%;
+  left: -10.6%;
+  background-image: url(../images/cross.webp);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  content: "";
+  transform: rotate(8deg);
+}
+.hero_3::after {
+  position: absolute;
+  bottom: -14.2%;
+  left: 36.7%;
+  background-image: url(../images/circle.webp);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  content: "";
+}
+.hero_4 .container_4::before {
+  position: absolute;
+  top: 16%;
+  left: 4%;
+  background-image: url(../images/circle.webp);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  content: "";
+}
+.hero_4 .container_4::after {
+  position: absolute;
+  bottom: 18%;
+  left: 37%;
+  background-image: url(../images/cross.webp);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  content: "";
+  transform: rotate(20deg);
+}
+.hero_4 .hero-4__img::after {
+  position: absolute;
+  top: 7.6%;
+  right: -12.6%;
+  background-image: url(../images/cross.webp);
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  content: "";
+  transform: rotate(8deg);
+}
+.hero_5 .container_5::before {
+  position: absolute;
+  top: 49.3%;
+  left: -10.5%;
+  background-image: url(../images/circle.webp);
+  background-size: contain;
+  width: 22px;
+  height: 22px;
+  content: "";
+}
+.hero_5 .hero5__img::after {
+  z-index: -1;
+  position: absolute;
+  top: -3.5%;
+  right: -4.5%;
+  background-image: url(../images/circle.webp);
+  background-size: contain;
+  width: 42px;
+  height: 42px;
+  content: "";
+}
+.hero_5 .hero5__img::before {
+  z-index: 1;
+  position: absolute;
+  bottom: -2%;
+  left: -3.5%;
+  background-image: url(../images/cross.webp);
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+  content: "";
+  transform: rotate(8deg);
+}
+.trending-stories .trending-stories__container::after {
+  position: absolute;
+  left: -8.5%;
+  top: 67%;
+  background-image: url(../images/circle.webp);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  content: "";
+}
+.trending-stories .trending-stories__container::before {
+  position: absolute;
+  top: -9%;
+  left: 36.2%;
+  background-image: url(../images/cross.webp);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  content: "";
+  transform: rotate(8deg);
+}
+.trending-stories .trending-stories__content::after {
+  z-index: 2;
+  bottom: -17%;
+  right: 32.4%;
+  position: absolute;
+  background-image: url(../images/circle.webp);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  content: "";
+}

@@ -1,0 +1,124 @@
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.hero_1 {
+  margin-top: 79px;
+}
+[class^="container_"] {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.container_1 {
+  width: 1415px;
+  position: relative;
+}
+.hero-content__some-text {
+  font-family: "Mulish", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 30px;
+  display: block;
+  opacity: 100%;
+  color: #7d7987;
+  margin-top: 20px;
+  width: 440px;
+}
+.hero__form {
+  position: relative;
+  color: #4a4c53;
+  border-radius: 6px;
+  width: 220px;
+  height: 52px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 32px;
+  background: none;
+}
+.hero__title {
+  width: 356px;
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+  text-align: left;
+  margin-top: 32px;
+}
+.hero__subtitle {
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  margin: 74px 0 0 0;
+}
+.hero__subtitle::before {
+  position: absolute;
+  background: #202336;
+  content: "";
+  top: 48px;
+  width: 32px;
+  height: 2px;
+}
+.hero__form-groups {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 30px;
+  row-gap: 35px;
+  width: 471px;
+  margin-top: 71px;
+}
+.hero__custom-select {
+  position: relative;
+}
+.hero__custom-select::after {
+  content: "";
+  top: 26px;
+  right: 30.5px;
+  position: absolute;
+  width: 8px;
+  height: 2px;
+  background: #4a4c53;
+  transform: rotate(135deg);
+}
+.hero__custom-select::before {
+  content: "";
+  position: absolute;
+  top: 26px;
+  left: 177.2px;
+  width: 8px;
+  height: 2px;
+  background: #4a4c53;
+  transform: rotate(45deg);
+}
+.hero__explore.btn {
+  width: 180px;
+  height: 52px;
+  margin-top: 16px;
+  font-size: 17px;
+}
+.custom-select__item {
+  position: relative;
+  border: 0.8px solid #afb0b9;
+  color: #4a4c53;
+  border-radius: 6px;
+  width: 220px;
+  height: 52px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 32px;
+  padding-left: 29px;
+  background: none;
+}
+.hero__img {
+  position: relative;
+  margin-right: 110px;
+}

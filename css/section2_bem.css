@@ -1,0 +1,25 @@
+.hero_2 {
+  margin-top: 280px;
+  margin-left: -50px;
+}
+.container_2 {
+  display: flex;
+  width: 1242px;
+}
+.hero-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.hero-content__title {
+  margin-top: 98px;
+}
+.hero-content__button.btn {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 60px;
+  margin-top: 40px;
+  width: 164px;
+}

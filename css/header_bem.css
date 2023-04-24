@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@300;400;700&family=Playfair+Display:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.header {
+  width: 100%;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+.hero__title_h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  vertical-align: top;
+  width: 481px;
+}
+.container {
+  width: 1415px;
+  margin-left: 170px;
+}
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  z-index: 1;
+  max-width: 1600px;
+}
+.navigation {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin-right: 185px;
+}
+.navigation__logo {
+  margin-top: 45px;
+}
+.navigation__right {
+  display: flex;
+  gap: 0 34px;
+  align-items: center;
+  width: 663px;
+  margin-top: 40px;
+  margin-right: 11px;
+}
+.navigation__item {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #b8becd;
+}
+.navigation__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 347px;
+}
+.navigation__buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 282px;
+}
+.navigation__right button {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+.navigation__item.selected {
+  color: #202336;
+}
+.btn {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 60px;
+  border-radius: 8px;
+  width: 132px;
+  height: 44px;
+  background: #fb8f1d;
+  color: #ffffff;
+  border: none;
+}
+.list__login.btn {
+  outline: 1px solid #fb8f1d;
+  color: #fb8f1d;
+  background-color: #ffffff;
+  margin-right: -13px;
+}
