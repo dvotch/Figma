@@ -2,7 +2,7 @@
   position: absolute;
   left: 33%;
   bottom: 89%;
-  background-image: url(/images/cross.svg);
+  background-image: url(../images/cross.webp);
   width: 20px;
   height: 20px;
   content: "";
@@ -11,7 +11,7 @@
   position: absolute;
   left: -8%;
   bottom: 46.5%;
-  background-image: url(/images/circle.svg);
+  background-image: url(../images/circle.webp);
   width: 26px;
   height: 26px;
   content: "";
@@ -20,7 +20,7 @@
   position: absolute;
   left: -11.5%;
   bottom: 3.5%;
-  background-image: url(/images/circle.svg);
+  background-image: url(../images/circle.webp);
   background-size: contain;
   width: 20px;
   height: 20px;
@@ -30,7 +30,7 @@
   position: absolute;
   bottom: 98.5%;
   right: 43.1%;
-  background-image: url(/images/cross.svg);
+  background-image: url(../images/cross.webp);
   background-size: contain;
   width: 20px;
   height: 20px;
@@ -41,7 +41,7 @@
   position: absolute;
   bottom: 28.5%;
   right: 28%;
-  background-image: url(/images/circle.svg);
+  background-image: url(../images/circle.webp);
   background-size: contain;
   width: 20px;
   height: 20px;
@@ -51,7 +51,7 @@
   position: absolute;
   bottom: 101%;
   right: 15.3%;
-  background-image: url(/images/circle.svg);
+  background-image: url(../images/circle.webp);
   background-size: contain;
   width: 20px;
   height: 20px;
@@ -61,7 +61,7 @@
   position: absolute;
   bottom: 27%;
   left: -10.6%;
-  background-image: url(/images/cross.svg);
+  background-image: url(../images/cross.webp);
   background-size: contain;
   width: 20px;
   height: 20px;
@@ -72,7 +72,7 @@
   position: absolute;
   bottom: -14.2%;
   left: 36.7%;
-  background-image: url(/images/circle.svg);
+  background-image: url(../images/circle.webp);
   background-size: contain;
   width: 20px;
   height: 20px;
@@ -82,7 +82,7 @@
   position: absolute;
   top: 16%;
   left: 4%;
-  background-image: url(/images/circle.svg);
+  background-image: url(../images/circle.webp);
   background-size: contain;
   width: 20px;
   height: 20px;
@@ -92,7 +92,7 @@
   position: absolute;
   bottom: 18%;
   left: 37%;
-  background-image: url(/images/cross.svg);
+  background-image: url(../images/cross.webp);
   background-size: contain;
   width: 20px;
   height: 20px;
@@ -103,7 +103,7 @@
   position: absolute;
   top: 7.6%;
   right: -12.6%;
-  background-image: url(/images/cross.svg);
+  background-image: url(../images/cross.webp);
   background-size: contain;
   width: 16px;
   height: 16px;
@@ -114,7 +114,7 @@
   position: absolute;
   top: 49.3%;
   left: -10.5%;
-  background-image: url(/images/circle.svg);
+  background-image: url(../images/circle.webp);
   background-size: contain;
   width: 22px;
   height: 22px;
@@ -125,7 +125,7 @@
   position: absolute;
   top: -3.5%;
   right: -4.5%;
-  background-image: url(/images/circle.svg);
+  background-image: url(../images/circle.webp);
   background-size: contain;
   width: 42px;
   height: 42px;
@@ -136,7 +136,7 @@
   position: absolute;
   bottom: -2%;
   left: -3.5%;
-  background-image: url(/images/cross.svg);
+  background-image: url(../images/cross.webp);
   background-size: contain;
   width: 32px;
   height: 32px;
@@ -147,7 +147,7 @@
   position: absolute;
   left: -8.5%;
   top: 67%;
-  background-image: url(/images/circle.svg);
+  background-image: url(../images/circle.webp);
   background-size: contain;
   width: 20px;
   height: 20px;
@@ -157,7 +157,7 @@
   position: absolute;
   top: -9%;
   left: 36.2%;
-  background-image: url(/images/cross.svg);
+  background-image: url(../images/cross.webp);
   background-size: contain;
   width: 20px;
   height: 20px;
@@ -169,7 +169,7 @@
   bottom: -17%;
   right: 32.4%;
   position: absolute;
-  background-image: url(/images/circle.svg);
+  background-image: url(../images/circle.webp);
   background-size: contain;
   width: 20px;
   height: 20px;

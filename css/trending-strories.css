@@ -22,16 +22,16 @@
   border-radius: 8px 8px 0 0;
 }
 .img__benefits {
-  background-image: url(/images/benefits.svg);
+  background-image: url(../images/benefits.svg);
 }
 .img__restaurant {
-  background-image: url(/images/restaurant.svg);
+  background-image: url(../images/restaurant.svg);
 }
 .img__yucatan {
-  background-image: url(/images/Yucatan.svg);
+  background-image: url(../images/Yucatan.svg);
 }
 .img__surf {
-  background-image: url(/images/surf.svg);
+  background-image: url(../images/surf.svg);
 }
 .content__row {
   margin-right: 25px;
